@@ -1,0 +1,63 @@
+
+R Arithmetic Operators
+ x <- 5
+ y <- 16
+  x+y
+[1] 21
+ x-y
+[1] -11
+ x*y
+[1] 80
+y/x
+[1] 3.2
+ y%/%x
+[1] 3
+ y%%x
+[1] 1
+ y^x
+[1] 1048576
+R Relational Operators
+ x <- 5
+ y <- 16
+x<y
+[1] TRUE
+ x>y
+[1] FALSE
+ x<=5
+[1] TRUE
+ y>=20
+[1] FALSE
+ y == 16
+[1] TRUE
+ x != 5
+[1] FALSE
+Operation on Vectors
+ x <- c(2,8,3)
+y <- c(6,4,1)
+x+y
+[1]  8 12  4
+ x>y
+[1] FALSE  TRUE  TRUE
+R Logical Operators
+ x <- c(TRUE,FALSE,0,6)
+ y <- c(FALSE,TRUE,FALSE,TRUE)
+ !x
+[1] FALSE  TRUE  TRUE FALSE
+x&y
+[1] FALSE FALSE FALSE  TRUE
+ x&&y
+[1] FALSE
+x|y
+[1]  TRUE  TRUE FALSE  TRUE
+x||y
+[1] TRUE
+R Assignment Operators
+ x <- 5
+ x
+[1] 5
+ x = 9
+ x
+[1] 9
+10 -> x
+ x
+[1] 10
